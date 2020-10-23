@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "find_my_coffee_api"
+		},
+		{
+			"path": "find_my_coffee_front"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2
+	}
+}

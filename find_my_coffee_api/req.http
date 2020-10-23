@@ -1,0 +1,15 @@
+@radius = 2000
+@port = 3001
+@location = -22.847306,-43.634583
+@gsk = AIzaSyAJ2pybGNJjVd8OiYNneZ6ThNgz4bSPv70
+@url = https://maps.googleapis.com/maps/api/place/textsearch/json?query=coffee+shops&location={{location}}&radius={{radius}}&key{{gsk}}
+@local = http://localhost:3000/api/v1/google_stores?latitude=-30&longitude=-49
+@id = ChIJ2f-SErrjmwARvm-rF2gFeP4
+@umcafe = http://localhost:{{port}}/api/v1/google_stores/{{id}}
+
+
+
+GET {{ local }}
+
+###
+GET {{umcafe}}
